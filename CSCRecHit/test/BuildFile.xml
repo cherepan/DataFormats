@@ -7,6 +7,7 @@
 <use name="CommonTools/UtilAlgos"/>
 <use name="FWCore/ServiceRegistry"/>
 <use name="root"/>
-<library file="CSCSharesInputTest.cc" name="CSCSharesInputTest">
-  <flags EDM_PLUGIN="1"/>
-</library>
+<export>
+  <lib name="1"/>
+</export>
+
